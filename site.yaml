@@ -15,5 +15,5 @@ meta:
 publisher:
         github:
                 type: hyde.ext.publishers.dvcs.Git
-                path: ../wataugarobotics
+                path: deploy
                 url: git@github.com:wataugarobotics/wataugarobotics.github.io.git
