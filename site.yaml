@@ -12,8 +12,3 @@ plugins:
 meta:
     extends: main.j2
     default_block: content
-publisher:
-        github:
-                type: hyde.ext.publishers.dvcs.Git
-                path: deploy
-                url: git@github.com:wataugarobotics/wataugarobotics.github.io.git
