@@ -10,5 +10,10 @@ plugins:
     - hyde.ext.plugins.text.SyntextPlugin
     - hyde.ext.plugins.text.TextlinksPlugin
 meta:
-    extends: main.html
+    extends: main.j2
     default_block: content
+publisher:
+        github:
+                type: hyde.ext.publishers.dvcs.Git
+                path: ../wataugarobotics
+                url: git@github.com:wataugarobotics/wataugarobotics.github.io.git

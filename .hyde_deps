@@ -1,0 +1,6 @@
+!!python/unicode 'ftc/index.html': [!!python/unicode 'main.j2']
+!!python/unicode 'index.html': [!!python/unicode 'main.j2']
+!!python/unicode 'media/css/custom.css': [!!python/unicode 'main.j2']
+!!python/unicode 'media/css/picnic.min.css': [!!python/unicode 'main.j2']
+!!python/unicode 'sumo/index.html': [!!python/unicode 'main.j2']
+!!python/unicode 'vex/index.html': [!!python/unicode 'main.j2']

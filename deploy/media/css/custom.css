@@ -5,12 +5,12 @@
 		<meta name="keywords" content="Watauga,Robotics,FTC,VEX,Sumo,ASU">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		      
-		<title>{{ resource.meta.title }}</title>
-		<link href="{{ media_url('images/wataugarobotics.png') }}" rel="icon" type="image/png">
+		<title></title>
+		<link href="/media/images/wataugarobotics.png" rel="icon" type="image/png">
 		
 		<!-- CSS (picnic, custom) -->
-		<link href="{{ media_url('css/picnic.min.css') }}" rel="stylesheet" type="text/css"/>
-		<link href="{{ media_url('css/custom.css') }}" rel="stylesheet" type="text/css"/>
+		<link href="/media/css/picnic.min.css" rel="stylesheet" type="text/css"/>
+		<link href="/media/css/custom.css" rel="stylesheet" type="text/css"/>
 		
 		<!-- JS (fontawesome) -->
 		<script src="https://use.fontawesome.com/bb5602ef6a.js"></script>
@@ -18,8 +18,8 @@
 	<body>
 		<!-- Navigation -->
 		<nav class="main">
-			<a href="{{ base_url('') }}" class="brand">
-				<img class="logo" src="{{ media_url('images/wataugarobotics.png') }}" alt=""/>
+			<a href="" class="brand">
+				<img class="logo" src="/media/images/wataugarobotics.png" alt=""/>
 				<span>Watauga Robotics</span>
 			</a>
 
@@ -28,16 +28,32 @@
 			<label for="bmenu" class="burger pseudo button">&#8801;</label>
 
 			<div class="menu">
-				<a href="{{ base_url('ftc/') }}" class="pseudo button">FTC</a>
-				<a href="{{ base_url('vex/') }}" class="pseudo button">VEX</a>
-				<a href="{{ base_url('sumo/') }}" class="pseudo button">Sumo</a>
+				<a href="" class="pseudo button">FTC</a>
+				<a href="" class="pseudo button">VEX</a>
+				<a href="" class="pseudo button">Sumo</a>
 				<a href="https://github.com/wataugarobotics" class="pseudo button"><i class="fa fa-github" style="color:white"></i> GitHub</a>
 			</div>
 		</nav>
 		<main class="content">
-			{% block content %}
-			<h1>A Work in Progress</h1>
-			{% endblock content %}
+			@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%
+}
+
+nav, nav.main div.menu {
+	background-color: #00659B;
+}
+
+nav.main a.brand, nav.main div.menu a.pseudo.button {
+	color: white;
+}
+
+.content {
+	padding: 4em 1em;
+}
+
 		</main>
 		<footer>
 			<center><a href="https://github.com/wataugarobotics/wataugarobotics"><h4>
