@@ -19,10 +19,12 @@
 		<!-- team dropdown -->
 		<ul id="teamDrop" class="dropdown-content">
 			{% set teamDropContent %}
-		    <li><a href="{{ content_url('ftc/5881.html') }}">FTC 5881</a></li>
-		    <li><a href="{{ content_url('ftc/8190.html') }}">FTC 8190</a></li>
+		    <li><a href="{{ content_url('ftc/') }}">FTC</a></li>
+		    <li><a href="{{ content_url('ftc/5881/') }}"> &gt; 5881</a></li>
+		    <li><a href="{{ content_url('ftc/8190/') }}"> &gt; 8190</a></li>
 		    <li class="divider"></li>
-		    <li><a href="{{ content_url('vex/9321.html') }}">VEX 9321</a></li>
+		    <li><a href="{{ content_url('vex/') }}">VEX</a></li>
+		    <li><a href="{{ content_url('vex/9321/') }}"> &gt; 9321</a></li>
 			{% endset %}
 			{{ teamDropContent}}
 		</ul>
@@ -39,28 +41,26 @@
 				<a href="#" data-activates="mobile-nav" class="right button-collapse"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">
 					<li><a href="#!" class="dropdown-button" data-activates="teamDrop">Teams<i class="material-icons right">arrow_drop_down</i></a></li>
-				    <li><a href="{{ content_url('sumo/index.html') }}">Sumo</a></li>
+				    <li><a href="{{ content_url('sumo/') }}">Sumo</a></li>
 				    <li><a href="https://github.com/wataugarobotics">
 				        <i class="fa fa-github" style="color:white"></i> GitHub</a>
 				    </li>
 				</ul>
 				<ul class="right side-nav" id="mobile-nav">
 					<li><a href="#!" class="dropdown-button" data-activates="teamDrop-mobile">Teams<i class="material-icons right">arrow_drop_down</i></a></li>
-				    <li><a href="{{ content_url('sumo/index.html') }}">Sumo</a></li>
+				    <li><a href="{{ content_url('sumo/') }}">Sumo</a></li>
 				    <li><a href="https://github.com/wataugarobotics">
-				        <i class="fa fa-github" style="color:white"></i> GitHub</a>
+				        <i class="right fa fa-github" style="color:white"></i> GitHub</a>
 				    </li>
 				</ul>
 			</div>
 			{% block subnav %}
 			{% endblock subnav %}
 		</nav>
-		<main class="content">
-			<div class="container">
-				{% block content %}
-				<h1>A Work in Progress</h1>
-				{% endblock content %}
-			</div>
+		<main class="content container">
+			{% block content %}
+			<h1>A Work in Progress</h1>
+			{% endblock content %}
 		</main>
 
 		<footer>

@@ -1,4 +1,6 @@
-!!python/unicode 'ftc/index.html': [!!python/unicode 'main.j2']
+!!python/unicode 'ftc/5881/index.html': [!!python/unicode 'ftc.j2', !!python/unicode 'main.j2']
+!!python/unicode 'ftc/8190/index.html': [!!python/unicode 'ftc.j2', !!python/unicode 'main.j2']
+!!python/unicode 'ftc/index.html': [!!python/unicode 'ftc.j2', !!python/unicode 'main.j2']
 !!python/unicode 'index.html': [!!python/unicode 'main.j2']
 !!python/unicode 'media/css/custom.css': []
 !!python/unicode 'media/css/jquery.bracket.min.css': []
@@ -20,6 +22,7 @@
 !!python/unicode 'media/js/node_modules/jquery-bracket/src/jquery.bracket.ts': []
 !!python/unicode 'media/js/node_modules/jquery-bracket/tslint.json': []
 !!python/unicode 'sumo/bracket.html': [!!python/unicode 'sumo.j2', !!python/unicode 'main.j2']
+!!python/unicode 'sumo/bracket/index.html': [!!python/unicode 'sumo.j2', !!python/unicode 'main.j2']
 !!python/unicode 'sumo/index.html': [!!python/unicode 'sumo.j2', !!python/unicode 'main.j2']
 !!python/unicode 'sumo/info.html': [!!python/unicode 'sumo.j2', !!python/unicode 'main.j2']
 !!python/unicode 'sumo/meta.yaml': [!!python/unicode 'main.j2']
@@ -48,4 +51,5 @@
 !!python/unicode 'sumo/node_modules/jquery-bracket/tslint.json': [!!python/unicode 'sumo.j2',
   !!python/unicode 'main.j2']
 !!python/unicode 'sumo/update.sh': [!!python/unicode 'sumo.j2', !!python/unicode 'main.j2']
-!!python/unicode 'vex/index.html': [!!python/unicode 'main.j2']
+!!python/unicode 'vex/9321/index.html': [!!python/unicode 'main.j2', !!python/unicode 'vex.j2']
+!!python/unicode 'vex/index.html': [!!python/unicode 'main.j2', !!python/unicode 'vex.j2']

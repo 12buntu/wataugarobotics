@@ -1,0 +1,14 @@
+{% extends "main.j2" %}
+
+{% block subnav %}
+<div class="nav-content container">
+    <ul class="tabs tabs-transparent">
+        <li class="tab"><a class="{{ resource.meta.aboutclass }}" target="_self" href="{{ content_url('vex/') }}">About VEX</a></li>
+        <li class="tab"><a class="{{ resource.meta.teamoneclass }}" target="_self" href="{{ content_url('vex/9321/') }}">Team 9321</a></li>
+    </ul>
+</div>
+{% endblock subnav %}
+
+{% block content %}
+<h4>default text</h4>
+{% endblock content %}
