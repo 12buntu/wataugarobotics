@@ -1,6 +1,51 @@
 !!python/unicode 'ftc/index.html': [!!python/unicode 'main.j2']
 !!python/unicode 'index.html': [!!python/unicode 'main.j2']
-!!python/unicode 'media/css/custom.css': [!!python/unicode 'main.j2']
+!!python/unicode 'media/css/custom.css': []
+!!python/unicode 'media/css/jquery.bracket.min.css': []
 !!python/unicode 'media/css/picnic.min.css': [!!python/unicode 'main.j2']
-!!python/unicode 'sumo/index.html': [!!python/unicode 'main.j2']
+!!python/unicode 'media/js/bracket.js': []
+!!python/unicode 'media/js/custom.js': []
+!!python/unicode 'media/js/index.html': []
+!!python/unicode 'media/js/jquery.bracket.min.js': []
+!!python/unicode 'media/js/node_modules/jquery-bracket/.npmignore': []
+!!python/unicode 'media/js/node_modules/jquery-bracket/Gruntfile.js': []
+!!python/unicode 'media/js/node_modules/jquery-bracket/LICENSE': []
+!!python/unicode 'media/js/node_modules/jquery-bracket/README.md': []
+!!python/unicode 'media/js/node_modules/jquery-bracket/bower.json': []
+!!python/unicode 'media/js/node_modules/jquery-bracket/dist/jquery.bracket.min.css': []
+!!python/unicode 'media/js/node_modules/jquery-bracket/dist/jquery.bracket.min.js': []
+!!python/unicode 'media/js/node_modules/jquery-bracket/lib/jquery.d.ts': []
+!!python/unicode 'media/js/node_modules/jquery-bracket/package.json': []
+!!python/unicode 'media/js/node_modules/jquery-bracket/src/jquery.bracket.sass': []
+!!python/unicode 'media/js/node_modules/jquery-bracket/src/jquery.bracket.ts': []
+!!python/unicode 'media/js/node_modules/jquery-bracket/tslint.json': []
+!!python/unicode 'sumo/bracket.html': [!!python/unicode 'sumo.j2', !!python/unicode 'main.j2']
+!!python/unicode 'sumo/index.html': [!!python/unicode 'sumo.j2', !!python/unicode 'main.j2']
+!!python/unicode 'sumo/info.html': [!!python/unicode 'sumo.j2', !!python/unicode 'main.j2']
+!!python/unicode 'sumo/meta.yaml': [!!python/unicode 'main.j2']
+!!python/unicode 'sumo/node_modules/jquery-bracket/.npmignore': [!!python/unicode 'sumo.j2',
+  !!python/unicode 'main.j2']
+!!python/unicode 'sumo/node_modules/jquery-bracket/Gruntfile.js': [!!python/unicode 'sumo.j2',
+  !!python/unicode 'main.j2']
+!!python/unicode 'sumo/node_modules/jquery-bracket/LICENSE': [!!python/unicode 'sumo.j2',
+  !!python/unicode 'main.j2']
+!!python/unicode 'sumo/node_modules/jquery-bracket/README.md': [!!python/unicode 'sumo.j2',
+  !!python/unicode 'main.j2']
+!!python/unicode 'sumo/node_modules/jquery-bracket/bower.json': [!!python/unicode 'sumo.j2',
+  !!python/unicode 'main.j2']
+!!python/unicode 'sumo/node_modules/jquery-bracket/dist/jquery.bracket.min.css': [
+  !!python/unicode 'sumo.j2', !!python/unicode 'main.j2']
+!!python/unicode 'sumo/node_modules/jquery-bracket/dist/jquery.bracket.min.js': [
+  !!python/unicode 'sumo.j2', !!python/unicode 'main.j2']
+!!python/unicode 'sumo/node_modules/jquery-bracket/lib/jquery.d.ts': [!!python/unicode 'sumo.j2',
+  !!python/unicode 'main.j2']
+!!python/unicode 'sumo/node_modules/jquery-bracket/package.json': [!!python/unicode 'sumo.j2',
+  !!python/unicode 'main.j2']
+!!python/unicode 'sumo/node_modules/jquery-bracket/src/jquery.bracket.sass': [!!python/unicode 'sumo.j2',
+  !!python/unicode 'main.j2']
+!!python/unicode 'sumo/node_modules/jquery-bracket/src/jquery.bracket.ts': [!!python/unicode 'sumo.j2',
+  !!python/unicode 'main.j2']
+!!python/unicode 'sumo/node_modules/jquery-bracket/tslint.json': [!!python/unicode 'sumo.j2',
+  !!python/unicode 'main.j2']
+!!python/unicode 'sumo/update.sh': [!!python/unicode 'sumo.j2', !!python/unicode 'main.j2']
 !!python/unicode 'vex/index.html': [!!python/unicode 'main.j2']

@@ -1,2 +1,2 @@
 extends: sumo.j2
-default_block: sumocontent
+default_block: content

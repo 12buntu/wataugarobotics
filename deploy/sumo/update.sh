@@ -9,7 +9,7 @@
 		<link href="/media/images/wataugarobotics.png" rel="icon" type="image/png">
 
 		<!-- CSS (material icons, materialize, custom) -->
-		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
 		<link href="/media/css/custom.css" rel="stylesheet" type="text/css"/>
 			</head>
@@ -31,9 +31,9 @@
 			
 		</ul>
 		<!-- main -->
-		<nav>
+		<nav class="nav-extended">
 			<div class="nav-wrapper container">
-				<a href="/" class="brand-logo">
+				<a href="/" class="left brand-logo">
 				    <!-- <img class="logo responsive-img" src="/media/images/wataugarobotics.png" alt=""/> -->
 				    Watauga Robotics
 				</a>
@@ -53,28 +53,19 @@
 				    </li>
 				</ul>
 			</div>
+			<div class="nav-content container">
+    <ul class="tabs tabs-transparent">
+        <li class="tab"><a class="" target="_self" href="/sumo/index.html">Home</a></li>
+        <li class="tab"><a class="" target="_self" href="/sumo/bracket.html">Stats</a></li>
+    </ul>
+</div>
 		</nav>
 		<main class="content">
-			<div class="container"
-				<!-- <div class="sumo flex five">
-    <aside class="subnav full fifth-1000">
-        <div class="flex one">
-            <a href="/sumo/index.html" class="button stack">Home</a>
-            <a href="/sumo/bracket.html" class="button stack">Tournament</a>
-        </div>
-    </aside>
-    <div class="subtitle full three-fifth-1000">
-        <center><h1>
-            
-        </center></div>
-    </div>
-    <div class="sumocontent full">
-        #! /bin/bash
+			<div class="container">
+				#! /bin/bash
 echo "Updating Sumo Info"
 wget http://www.appstate.edu/~marlandes/robots/sumosumo.html -O info.html
 
-    </div>
-</div> -->
 			</div>
 		</main>
 
