@@ -5,7 +5,7 @@
 		<meta name="keywords" content="Watauga,Robotics,FTC,VEX,Sumo,ASU">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>FTC</title>
+		<title></title>
 		<link href="/media/images/wataugarobotics.png" rel="icon" type="image/png">
 
 		<!-- CSS (material icons, materialize, custom) -->
@@ -56,9 +56,25 @@
 		</nav>
 		<main class="content">
 			<div class="container"
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/6Eyk5CJg41A" frameborder="0" allowfullscreen></iframe>
-<iframe src="https://jacobcw00.wixsite.com/wataugarobotics5881" width=100% height=8850px</iframe>
+				<!-- <div class="sumo flex five">
+    <aside class="subnav full fifth-1000">
+        <div class="flex one">
+            <a href="/sumo/index.html" class="button stack">Home</a>
+            <a href="/sumo/bracket.html" class="button stack">Tournament</a>
+        </div>
+    </aside>
+    <div class="subtitle full three-fifth-1000">
+        <center><h1>
+            
+        </center></div>
+    </div>
+    <div class="sumocontent full">
+        #! /bin/bash
+echo "Updating Sumo Info"
+wget http://www.appstate.edu/~marlandes/robots/sumosumo.html -O info.html
 
+    </div>
+</div> -->
 			</div>
 		</main>
 

@@ -10,5 +10,6 @@ plugins:
     - hyde.ext.plugins.text.SyntextPlugin
     - hyde.ext.plugins.text.TextlinksPlugin
 meta:
+    nodemeta: meta.yaml
     extends: main.j2
     default_block: content

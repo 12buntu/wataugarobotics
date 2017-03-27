@@ -1,18 +1,30 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
-
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 100%
 }
 
-nav, nav.main div.menu {
+nav, nav.container, .side-nav {
 	background-color: #00659B;
 }
 
-nav.main a.brand, nav.main div.menu a.pseudo.button {
+nav a, .container .side-nav li a {
 	color: white;
 }
 
+#teamDrop.dropdown-content li a, #teamDrop-mobile.dropdown-content li a{
+	background-color: white;
+	color: #333130;
+}
+
+.subnav .button {
+	background: #333130;
+}
+
+/*.logo {
+	height: 1.5em;
+	width: 1.5em;
+}*/
+
 .content {
 	padding: 4em 1em;
+	/*max-width: 1280px;
+	margin: auto;*/
 }
